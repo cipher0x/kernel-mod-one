@@ -6,10 +6,13 @@ This is a kernel module that setups a char driver that returns all ones. It prov
 
 make
 sudo insmod one.ko
+sudo make install
 
 ## Remove module
+
 sudo rmmod one
 
 ## Usage
+
 The driver device endpoint appears under:
 /dev/one
