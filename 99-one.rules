@@ -1,0 +1,1 @@
+KERNEL=="one", SUBSYSTEM=="one", MODE="0666"
